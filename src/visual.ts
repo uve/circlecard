@@ -37,7 +37,6 @@ module powerbi.extensibility.visual {
         private visualSettings: VisualSettings;
 
         constructor(options: VisualConstructorOptions) {
-            debugger;
             this.svg = d3.select(options.element)
                 .append('svg')
                 .classed('circleCard', true);
